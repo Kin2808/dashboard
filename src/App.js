@@ -8,6 +8,8 @@ import Employee from "./pages/Employee";
 import Order from "./pages/Order";
 import Product from "./pages/Product";
 import Supplier from "./pages/Supplier";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/product" element={<Product />} />
           <Route path="/supplier" element={<Supplier />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Router>
     </div>
